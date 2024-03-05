@@ -4,14 +4,7 @@
 *
 ******************************/
 
-#learner,
-#page-view {
-  padding-left: 64px !important;
-}
-
-@media only screen and (min-width: 48em) {
-  #learner,
-  #page-view {
-    padding-left: 0px !important;
-  }
+div.container {
+  padding-left: 64px;
+  max-width: 100%;
 }
