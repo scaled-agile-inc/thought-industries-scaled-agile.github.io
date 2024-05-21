@@ -5,6 +5,9 @@
 ******************************/
 
 .container {
+   @media (max-width: 37.375em) {
+      padding-left: 0px !important;
+   }
   padding-left: 68px !important;
   max-width: 100% !important;
 }
