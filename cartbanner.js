@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (mutation.type === 'childList') {
                 var modalDialog = document.getElementById('modalContent');
                 if(modalDialog && !document.querySelector(".cart-banner")) {
-                  console.log("cart rendered")
                   // Create a new div element
                   var newDiv = document.createElement("div");
                   newDiv.classList.add("cart-banner")
