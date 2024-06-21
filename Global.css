@@ -25,6 +25,8 @@
     grid-column-start: 10;
   }
 }
+/* commented this section out due to missing Id/class for the cart modal */
+/*
 .modal-content{
   border: none;
 }
@@ -42,20 +44,17 @@
   align-items: center;
   padding-left: 24px;
 }
-
 .cart-banner__title {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 19.6px;
 }
-
 .cart-banner__icon{
   width: 18px;
   height: 18px;
   margin-right: 16px;
 }
-
 .modal-header{
   display: flex;
   align-items: center;
@@ -88,7 +87,6 @@
   padding: 0 !important;
   margin-bottom: 24px;
 }
-
 .cart-item:last-of-type{
   border: none !important;
 }
@@ -101,21 +99,17 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-
 .cart-item__content-inner{
   padding-left: 0 !important;
 }
-
 .cart__buttons {
   padding: 0 0 0 0 !important;
   display: flex;
   justify-content: flex-end;
 }
-
 .cart__buttons .btn--right{
   float: unset;
 }
-
 .modal-title{
   font-size: 14px;
   font-style: normal;
@@ -127,7 +121,6 @@
   color: #066880;
   position: relative;
 }
-
 .cart-item .cart-item__content .cart-item__content-inner .btn:nth-child(2){
 font-size: 14px;
 font-style: normal;
@@ -136,8 +129,7 @@ line-height: 19.6px;
 text-decoration: none;
 color: #bf2222
 }
-
 .cart-item .cart-item__content .cart-item__content-inner .btn:nth-child(2)
 .icon-delete{
 display: none;
-}
+} */
