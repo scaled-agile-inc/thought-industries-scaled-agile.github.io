@@ -1,5 +1,4 @@
-
-document.addEventListener('DOMContentLoaded', (event) => {
+  document.addEventListener('DOMContentLoaded', (event) => {
     // Select the node that will be observed for mutations
     var targetNode = document.body; // body is chosen here as an example
 
@@ -11,7 +10,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         for(let mutation of mutationsList) {
             if (mutation.type === 'childList') {
                 var modalDialog = document.getElementById('modalContent');
-                if(modalDialog && !document.querySelector(".cart-banner")) {
+                var cartItems = document.querySelector('.cart-items');
+                if(modalDialog.contains(cartItems) && modalDialog && !document.querySelector(".cart-banner")) {
+                  modalDialog.classList.add("modal-content-cart");
+               
                   // Create a new div element
                   var newDiv = document.createElement("div");
                   newDiv.classList.add("cart-banner")
