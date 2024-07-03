@@ -25,3 +25,7 @@
     grid-column-start: 10;
   }
 }
+
+.catalog-grid-item {
+  box-shadow: none !important;
+}
