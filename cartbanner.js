@@ -10,6 +10,7 @@
         for(let mutation of mutationsList) {
             if (mutation.type === 'childList') {
                 var modalDialog = document.getElementById('modalContent');
+                if (!modalDialog) break;
                 var cartItems = document.querySelector('.cart-items');
                 if(modalDialog.contains(cartItems) && modalDialog && !document.querySelector(".cart-banner")) {
                   modalDialog.classList.add("modal-content-cart");
