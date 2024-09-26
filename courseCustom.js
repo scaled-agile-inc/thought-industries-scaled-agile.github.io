@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
         }
       }
+    }
     // Create an observer instance linked to the callback function
     var observer = new MutationObserver(callback);
 
