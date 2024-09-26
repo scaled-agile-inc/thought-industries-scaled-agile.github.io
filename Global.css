@@ -29,3 +29,55 @@
 .catalog-grid-item {
   box-shadow: none !important;
 }
+
+
+.learner__container{
+  display: flex;
+}
+.course__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.learner__container__toggle .btn{
+    background-color: #E2EEF2;
+    color: #053947;
+    border: none;
+}
+
+.learner__sidebar__expandables .expandable-sidebar__link{
+    display: none;
+}
+
+.learner__sidebar .expandable-sidebar__buttons{
+    display: none;
+}
+.learner__sidebar .layout-panel {
+    padding-bottom: 0;
+}
+.learner__sidebar__search .ember-text-field{
+    background-color: #F5F5F5;
+}
+
+.learner__sidebar__expandables .bg-accent-100 { 
+    background-color: #E2EEF2;
+}
+.learner__sidebar__expandables .container{
+    color: #0A819E;
+    border-width: 1px;
+    border-top: none;
+}
+
+.bookmark-dropdown__button.bookmark-plus{
+    display: none;
+}
+.directional__nav .directional__nav__label{
+    visibility: visible !important;
+} 
+
+.directional__nav .directional__nav__button{
+    background-color: #0A819E;
+}
+.directional__nav .directional__nav__button i{
+    color: #D9D9D9;
+}
